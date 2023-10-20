@@ -4,17 +4,18 @@
              x:Class="Lab07.MainPage">
     <ContentPage.Content>
         <StackLayout Padding="5">
+
             <StackLayout>
-                <Button x:Name="Item14" Text="ListviewSource" BackgroundColor="Purple"/>
+                <Button x:Name="Item14" Text="ImplicitDemo" BackgroundColor="Purple"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
-                    <Button x:Name="Item12" Text="ListViewDemo" BackgroundColor="Purple"/>
-                    <Button x:Name="Item13" Text="ListviewCode"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item15" Text="ListviewGroup"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item18" Text="ListviewGroup"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item19" Text="ListviewGroup"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item20" Text="ListviewGroup"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item12" Text="ExplicitDemo" BackgroundColor="Purple"/>
+                    <Button x:Name="Item13" Text="ExplicitControlDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item15" Text="ImplicitControlDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item18" Text="GlobalDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item19" Text="InheritanceDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item20" Text="DynamicDemo"  BackgroundColor="Purple"/>
                 </StackLayout>
             </StackLayout>
         </StackLayout>
