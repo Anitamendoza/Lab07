@@ -13,8 +13,8 @@ namespace Lab07
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new MainPage());
+
         }
 
         protected override void OnStart()

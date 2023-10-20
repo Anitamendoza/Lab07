@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace Lab07
 {
-    internal class CustomEntry
+     public class CustomEntry :Entry
     {
 
     }

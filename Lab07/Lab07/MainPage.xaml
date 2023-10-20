@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab07.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="5">
+            <StackLayout>
+                <Button x:Name="Item14" Text="ListviewSource" BackgroundColor="Purple"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <Button x:Name="Item12" Text="ListViewDemo" BackgroundColor="Purple"/>
+                    <Button x:Name="Item13" Text="ListviewCode"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item15" Text="ListviewGroup"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item18" Text="ListviewGroup"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item19" Text="ListviewGroup"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item20" Text="ListviewGroup"  BackgroundColor="Purple"/>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
