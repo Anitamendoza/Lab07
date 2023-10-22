@@ -1,0 +1,52 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab07.UsingStylesPage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="styles.css" />
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Image Source="https://img.freepik.com/fotos-premium/lindo-gatito-gatito-bebe-animal_853115-5758.jpg" StyleClass="catImage" />
+        </StackLayout>
+
+        <TableView StyleClass="infoTable">
+            <TableRoot>
+                <TableSection Title="Descripción del gato">
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Nombre" StyleClass="infoLabel" />
+                            <Label Text="Tavito" StyleClass="infoText" />
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Edad" StyleClass="infoLabel" />
+                            <Label Text="7 años" StyleClass="infoText" />
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Características" StyleClass="infoLabel" />
+                            <Label Text="Peludo, cariñoso" StyleClass="infoText" />
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Descripción" StyleClass="infoLabel" />
+                            <Label Text="Soy Tavito, me gustan las galletitas" StyleClass="infoText" />
+                        </StackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Raza" StyleClass="infoLabel" />
+                            <Label Text="Desconocida" StyleClass="infoText" />
+                        </StackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+
+</ContentPage>

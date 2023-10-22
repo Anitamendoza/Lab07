@@ -15,33 +15,37 @@ namespace Lab07
         public MainPage()
         {
             InitializeComponent();
-            Item12.Clicked += async (sender, e) =>
+            Item1.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new ExplicitDemo());
             };
-            Item13.Clicked += async (sender, e) =>
+            Item2.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new ExplicitControlDemo());
             };
-            Item14.Clicked += async (sender, e) =>
+            Item3.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new ImplicitDemo());
             };
-            Item15.Clicked += async (sender, e) =>
+            Item4.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new ImplicitControlDemo());
             };
-            Item18.Clicked += async (sender, e) =>
+            Item5.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new GlobalDemo());
             };
-            Item20.Clicked += async (sender, e) =>
+            Item6.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new DynamicDemo());
             };
-            Item19.Clicked += async (sender, e) =>
+            Item7.Clicked += async (sender, e) =>
             {
                 await Navigation.PushAsync(new InheritanceDemo());
+            };
+            Item8.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new UsingStylesPage());
             };
         }
     }

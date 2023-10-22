@@ -6,16 +6,18 @@
         <StackLayout Padding="5">
 
             <StackLayout>
-                <Button x:Name="Item14" Text="ImplicitDemo" BackgroundColor="Purple"/>
+                
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <StackLayout>
-                    <Button x:Name="Item12" Text="ExplicitDemo" BackgroundColor="Purple"/>
-                    <Button x:Name="Item13" Text="ExplicitControlDemo"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item15" Text="ImplicitControlDemo"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item18" Text="GlobalDemo"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item19" Text="InheritanceDemo"  BackgroundColor="Purple"/>
-                    <Button x:Name="Item20" Text="DynamicDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item1" Text="ImplicitDemo" BackgroundColor="Purple"/>
+                    <Button x:Name="Item2" Text="ExplicitDemo" BackgroundColor="Purple"/>
+                    <Button x:Name="Item3" Text="ExplicitControlDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item4" Text="ImplicitControlDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item5" Text="GlobalDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item6" Text="InheritanceDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item7" Text="DynamicDemo"  BackgroundColor="Purple"/>
+                    <Button x:Name="Item8" Text="UsingStylePage"  BackgroundColor="Purple"/>
                 </StackLayout>
             </StackLayout>
         </StackLayout>

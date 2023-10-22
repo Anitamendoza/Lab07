@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lab07.App">
     <Application.Resources>
-        <ResourceDictionary>
+     
+        <!--<ResourceDictionary>
             <Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="Center" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
@@ -13,6 +14,6 @@
                 <Setter Property="WidthRequest" Value="200" />
                 <Setter Property="TextColor" Value="Teal" />
             </Style>
-        </ResourceDictionary>
+        </ResourceDictionary>-->
     </Application.Resources>
 </Application>

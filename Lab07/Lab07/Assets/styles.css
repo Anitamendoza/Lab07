@@ -1,0 +1,25 @@
+﻿^contentpage {
+    background-color: lightgray;
+}
+
+.catImage {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.infoTable {
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.infoLabel {
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.infoText {
+    font-size: 16px;
+    color: darkblue;
+}
