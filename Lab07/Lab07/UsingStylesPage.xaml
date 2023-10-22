@@ -3,7 +3,7 @@
              x:Class="Lab07.UsingStylesPage">
 
     <ContentPage.Resources>
-        <StyleSheet Source="styles.css" />
+        <StyleSheet Source="/Assets/styles.css"/>
     </ContentPage.Resources>
 
     <StackLayout>
